@@ -24,7 +24,7 @@ const ResultModal = forwardRef(function ResultModal(
         The Target time was <strong>{targetTime} seconds.</strong>
       </p>
       <p>
-        You Stopped the Timer with <strong>{reaminingTime / 1000} left.</strong>
+        You Stopped the Timer with <strong>{reaminingTime / 1000} Sec left.</strong>
       </p>
       <form method="dialog" onSubmit={handleReset}>
         <button>CLose</button>
